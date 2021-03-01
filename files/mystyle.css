@@ -1,0 +1,78 @@
+a:link{
+	color:#0088CC; text-decoration:none;
+}
+a:visited{
+	color:#0088CC; text-decoration:none;
+}
+a:hover{
+	BORDER-BOTTOM: gray 1px dotted;
+}
+a:active{
+	color:#0088CC; text-decoration:none; 
+}
+
+
+.QStyle-0{font-size:90%;line-height:150%;} /*  */
+.QStyle-1{font-size:120%;color:#eb4d00;border-bottom: 1px solid #aaaaaa;padding-bottom: 0.3em;padding-top:0.6em;}
+
+.margin {
+	line-height: 1px;
+}
+
+ ul {
+	list-style-position: outside;
+	list-style-type: none;
+	padding-left:0px; 
+} 
+
+#Publications li{
+	line-height: 1.5em;
+    margin-bottom: 0.7em;
+} 
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body{
+/* 	transform: scale(1.05);
+	transform-origin: 0 0;  */
+	background-color:#FFFFFF;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:3%;
+	padding-bottom:10px;
+	max-width:1024px;
+	/* box-shadow: 0px 0px 6px #999; */
+    /* border-radius: 15px;  */
+	font-family: "OpenSans", Georgia, Helvetica, Arial, Verdana, san-serif, Times;
+	font-weight: 400;
+	color:#555;
+}
+
+ol{
+	list-style-position: outside;
+	list-style-type: decimal;
+/* 	font-size:90%;
+	font-family:Arial; */
+	padding-left:0px;
+}
+
+html{
+	background-color:#E0E0E0;
+}
